@@ -29,6 +29,7 @@ i {
   place-content: center;
   width: 32px;
   height: 32px;
+  margin-left: 3vw;
 
   color: var(--color-text);
 }
