@@ -1,7 +1,11 @@
+<!-- IMPORTATION -->
+
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from '@/components/HelloWorld.vue'
 </script>
+
+<!-- END IMPORTATION -->
 
 <template>
   <header>
@@ -13,12 +17,15 @@ import HelloWorld from '@/components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/portfolio">Portfolio</RouterLink>
       </nav>
     </div>
   </header>
 
   <RouterView />
 </template>
+
+<!-- CSS / STYLE  -->
 
 <style>
 @import '@/assets/base.css';
@@ -117,3 +124,5 @@ nav a:first-of-type {
   }
 }
 </style>
+
+<!-- END CSS / STYLE  -->
