@@ -27,7 +27,7 @@ import Footer from '@/components/Footer.vue';
 
 <!-- CSS / STYLE  -->
 
-<style>
+<style scoped>
 @import '@/assets/base.css';
 
 
